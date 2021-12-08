@@ -1,3 +1,7 @@
+document.querySelector("button").addEventListener("click",function(){
+    alert("rotate the screen for better experience");
+})
+
 function keysound(e) {
 
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
